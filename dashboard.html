@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dashboard — Athenaeum</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="app-shell">
+  <aside class="sidebar">
+    <a href="index.html" class="brand"><span class="brand-mark">📖</span> Athenaeum</a>
+    <nav class="side-nav">
+      <a href="dashboard.html" class="active"><span class="ic">📊</span> Overview</a>
+      <a href="catalog.html"><span class="ic">📚</span> Catalog</a>
+      <a href="#"><span class="ic">🔄</span> Loans &amp; Returns</a>
+      <a href="#"><span class="ic">👥</span> Members</a>
+      <a href="#"><span class="ic">⏰</span> Overdue</a>
+      <a href="#"><span class="ic">⚙️</span> Settings</a>
+    </nav>
+    <div class="sidebar-foot">
+      <div class="avatar">JE</div>
+      <div>
+        <div style="font-weight:600; font-size:.9rem; color:#fff;">Jordan Ellis</div>
+        <div style="font-size:.78rem; color:rgba(255,255,255,.55);">Head Librarian</div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main-area">
+    <div class="topbar">
+      <div>
+        <h2 class="mt-0">Welcome back, Jordan 👋</h2>
+        <p class="mt-0">Here's what's happening in the library today.</p>
+      </div>
+      <div class="search-bar">
+        <span>🔍</span>
+        <input type="text" placeholder="Search members, books, ISBN…" />
+      </div>
+    </div>
+
+    <div class="stat-cards">
+      <div class="stat-card">
+        <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Total Books</span><div class="icon-badge" style="background:var(--color-amber-100); color:var(--color-amber-500);">📚</div></div>
+        <strong>12,480</strong>
+        <span class="trend-up">▲ 2.4% this month</span>
+      </div>
+      <div class="stat-card">
+        <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Active Loans</span><div class="icon-badge" style="background:var(--color-teal-100); color:var(--color-teal-500);">🔄</div></div>
+        <strong>860</strong>
+        <span class="trend-up">▲ 5.1% this week</span>
+      </div>
+      <div class="stat-card">
+        <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Overdue Items</span><div class="icon-badge" style="background:#fbeceb; color:var(--color-danger);">⏰</div></div>
+        <strong>37</strong>
+        <span class="trend-down">▼ 1.2% this week</span>
+      </div>
+      <div class="stat-card">
+        <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Registered Members</span><div class="icon-badge" style="background:var(--color-cream-200); color:var(--color-navy-900);">👥</div></div>
+        <strong>3,120</strong>
+        <span class="trend-up">▲ 0.8% this month</span>
+      </div>
+    </div>
+
+    <div class="dash-grid">
+      <div>
+        <div class="panel">
+          <div class="panel-head">
+            <h3>Recently Borrowed</h3>
+            <a href="#" class="btn btn-ghost btn-sm">View all</a>
+          </div>
+          <table>
+            <thead>
+              <tr><th>Book</th><th>Member</th><th>Due Date</th><th>Status</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><div class="book-row"><div class="mini-cover cover-1"></div>The Silent Orchard</div></td>
+                <td>Dana Kim</td><td>Jul 20, 2026</td>
+                <td><span class="status-pill status-available">On time</span></td>
+              </tr>
+              <tr>
+                <td><div class="book-row"><div class="mini-cover cover-2"></div>Atoms &amp; Ashes</div></td>
+                <td>Omar Reyes</td><td>Jul 10, 2026</td>
+                <td><span class="status-pill status-borrowed">Overdue</span></td>
+              </tr>
+              <tr>
+                <td><div class="book-row"><div class="mini-cover cover-3"></div>Empires of Sand</div></td>
+                <td>Priya Nair</td><td>Jul 24, 2026</td>
+                <td><span class="status-pill status-available">On time</span></td>
+              </tr>
+              <tr>
+                <td><div class="book-row"><div class="mini-cover cover-5"></div>Letters to Myself</td></td>
+                <td>Callum Doyle</td><td>Jul 15, 2026</td>
+                <td><span class="status-pill status-borrowed">Overdue</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head"><h3>Circulation This Week</h3></div>
+          <div style="display:flex; align-items:flex-end; gap:1rem; height:160px; padding-top: 1rem;">
+            <div style="flex:1; background:var(--color-navy-800); border-radius:6px 6px 0 0; height:55%;"></div>
+            <div style="flex:1; background:var(--color-navy-800); border-radius:6px 6px 0 0; height:70%;"></div>
+            <div style="flex:1; background:var(--color-amber-500); border-radius:6px 6px 0 0; height:90%;"></div>
+            <div style="flex:1; background:var(--color-navy-800); border-radius:6px 6px 0 0; height:65%;"></div>
+            <div style="flex:1; background:var(--color-navy-800); border-radius:6px 6px 0 0; height:80%;"></div>
+            <div style="flex:1; background:var(--color-navy-800); border-radius:6px 6px 0 0; height:40%;"></div>
+            <div style="flex:1; background:var(--color-navy-800); border-radius:6px 6px 0 0; height:30%;"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; font-size:.78rem; color:var(--color-ink-500); margin-top:.5rem;">
+            <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="panel">
+          <div class="panel-head"><h3>Recent Activity</h3></div>
+          <div class="activity-item"><div class="activity-dot"></div><div>Dana Kim borrowed <strong>The Silent Orchard</strong><br><small>10 minutes ago</small></div></div>
+          <div class="activity-item"><div class="activity-dot"></div><div>New member <strong>Sana Iqbal</strong> registered<br><small>42 minutes ago</small></div></div>
+          <div class="activity-item"><div class="activity-dot"></div><div><strong>Atoms &amp; Ashes</strong> marked overdue<br><small>1 hour ago</small></div></div>
+          <div class="activity-item"><div class="activity-dot"></div><div>Priya Nair returned <strong>Harbor Lights</strong><br><small>3 hours ago</small></div></div>
+          <div class="activity-item"><div class="activity-dot"></div><div>24 new titles added to catalog<br><small>Yesterday</small></div></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head"><h3>Top Genres</h3></div>
+          <div class="activity-item"><span>Fiction</span><strong style="margin-left:auto;">38%</strong></div>
+          <div class="activity-item"><span>Science</span><strong style="margin-left:auto;">21%</strong></div>
+          <div class="activity-item"><span>History</span><strong style="margin-left:auto;">17%</strong></div>
+          <div class="activity-item"><span>Fantasy</span><strong style="margin-left:auto;">14%</strong></div>
+          <div class="activity-item"><span>Other</span><strong style="margin-left:auto;">10%</strong></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

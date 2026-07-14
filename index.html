@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Athenaeum — Library Management System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="brand"><span class="brand-mark">📖</span> Athenaeum</a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="catalog.html">Catalog</a>
+      <a href="book-detail.html">Book Detail</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="login.html" class="btn btn-ghost btn-sm">Sign In</a>
+      <a href="login.html" class="btn btn-primary btn-sm">Join Library</a>
+      <button class="btn btn-icon" data-nav-toggle aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">● 12,480 titles and growing</span>
+      <h1>Every book you need, in one calm place.</h1>
+      <p class="hero-sub">Browse the catalog, reserve titles, track due dates, and manage returns — all from a single, elegantly simple library dashboard.</p>
+
+      <div class="search-bar">
+        <span>🔍</span>
+        <input type="text" placeholder="Search by title, author, or ISBN…" />
+        <select><option>All Genres</option><option>Fiction</option><option>Science</option><option>History</option></select>
+        <button class="btn btn-dark btn-sm">Search</button>
+      </div>
+
+      <div class="hero-actions">
+        <a href="catalog.html" class="btn btn-primary">Browse Catalog</a>
+        <a href="dashboard.html" class="btn btn-outline">View Dashboard</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>12,480</strong><span>Total Titles</span></div>
+        <div class="hero-stat"><strong>3,120</strong><span>Active Members</span></div>
+        <div class="hero-stat"><strong>98%</strong><span>On-time Returns</span></div>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <div class="badge-float">📚 24 new arrivals this week</div>
+      <div class="stack">
+        <div class="book"></div>
+        <div class="book"></div>
+        <div class="book"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="stats-bar">
+      <div><strong>12,480</strong><span>Books in Catalog</span></div>
+      <div><strong>3,120</strong><span>Registered Members</span></div>
+      <div><strong>860</strong><span>Currently Borrowed</span></div>
+      <div><strong>24</strong><span>New This Week</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Featured</span>
+        <h2>Popular this month</h2>
+      </div>
+      <div class="section-tools">
+        <a href="catalog.html" class="btn btn-outline btn-sm">View All →</a>
+      </div>
+    </div>
+
+    <div class="book-grid">
+      <div class="book-card">
+        <div class="book-cover cover-1"><span class="tag">Fiction</span>The Silent Orchard</div>
+        <div class="book-body">
+          <h4>The Silent Orchard</h4>
+          <div class="author">by Marina Coates</div>
+          <div class="book-meta"><span class="rating">★ 4.8</span><span class="status-pill status-available">Available</span></div>
+        </div>
+      </div>
+      <div class="book-card">
+        <div class="book-cover cover-2"><span class="tag">Science</span>Atoms &amp; Ashes</div>
+        <div class="book-body">
+          <h4>Atoms &amp; Ashes</h4>
+          <div class="author">by Dr. R. Feynstein</div>
+          <div class="book-meta"><span class="rating">★ 4.6</span><span class="status-pill status-borrowed">Borrowed</span></div>
+        </div>
+      </div>
+      <div class="book-card">
+        <div class="book-cover cover-3"><span class="tag">History</span>Empires of Sand</div>
+        <div class="book-body">
+          <h4>Empires of Sand</h4>
+          <div class="author">by Halil Demir</div>
+          <div class="book-meta"><span class="rating">★ 4.9</span><span class="status-pill status-available">Available</span></div>
+        </div>
+      </div>
+      <div class="book-card">
+        <div class="book-cover cover-4"><span class="tag">Fantasy</span>The Glass Kingdom</div>
+        <div class="book-body">
+          <h4>The Glass Kingdom</h4>
+          <div class="author">by Wren Ashby</div>
+          <div class="book-meta"><span class="rating">★ 4.7</span><span class="status-pill status-available">Available</span></div>
+        </div>
+      </div>
+      <div class="book-card">
+        <div class="book-cover cover-5"><span class="tag">Biography</span>Letters to Myself</div>
+        <div class="book-body">
+          <h4>Letters to Myself</h4>
+          <div class="author">by Ines Vartan</div>
+          <div class="book-meta"><span class="rating">★ 4.5</span><span class="status-pill status-borrowed">Borrowed</span></div>
+        </div>
+      </div>
+      <div class="book-card">
+        <div class="book-cover cover-6"><span class="tag">Poetry</span>Low Tide Notebook</div>
+        <div class="book-body">
+          <h4>Low Tide Notebook</h4>
+          <div class="author">by Sana Iqbal</div>
+          <div class="book-meta"><span class="rating">★ 4.9</span><span class="status-pill status-available">Available</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Why Athenaeum</span>
+        <h2>Built for readers and librarians alike</h2>
+      </div>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">⏱</div>
+        <h3>Real-time availability</h3>
+        <p>See which copies are on the shelf, on hold, or due back — updated the moment a book is scanned in or out.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔔</div>
+        <h3>Smart due-date reminders</h3>
+        <p>Members get gentle nudges before a due date, so fines stay rare and shelves stay full.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3>Librarian dashboard</h3>
+        <p>A clear, at-a-glance view of circulation, popular titles, and overdue items for staff.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand" style="color:#fff; margin-bottom: 1rem; display:flex;"><span class="brand-mark">📖</span> Athenaeum</a>
+        <p style="color: rgba(255,255,255,0.6); max-width: 32ch;">A calmer way to manage a library — for members and staff.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="catalog.html">Catalog</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="book-detail.html">Book Detail</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Account</h4>
+        <ul>
+          <li><a href="login.html">Sign In</a></li>
+          <li><a href="login.html">Create Account</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <div class="social-row">
+          <a href="#">𝕏</a><a href="#">in</a><a href="#">gh</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Athenaeum Library Management System.</span>
+      <span>Design mockup — UI only, no backend logic.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

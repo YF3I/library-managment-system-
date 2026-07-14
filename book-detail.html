@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Silent Orchard — Athenaeum</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="brand"><span class="brand-mark">📖</span> Athenaeum</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="catalog.html">Catalog</a>
+      <a href="book-detail.html" class="active">Book Detail</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="login.html" class="btn btn-ghost btn-sm">Sign In</a>
+      <a href="login.html" class="btn btn-primary btn-sm">Join Library</a>
+    </div>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <p style="font-size: 0.85rem; color: var(--color-ink-500); margin-bottom: 1.5rem;">
+      <a href="catalog.html">Catalog</a> / <a href="catalog.html">Fiction</a> / The Silent Orchard
+    </p>
+
+    <div class="detail-grid">
+      <div>
+        <div class="detail-cover cover-1"></div>
+        <div class="detail-actions">
+          <button class="btn btn-primary btn-block">Reserve Copy</button>
+        </div>
+        <div class="detail-actions">
+          <button class="btn btn-outline btn-block">Add to Wishlist</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="badge-row">
+          <span class="status-pill status-available">Available · 3 copies</span>
+          <span class="rating">★ 4.8 (1,204 reviews)</span>
+        </div>
+        <h1>The Silent Orchard</h1>
+        <p style="font-size: 1.05rem;">by <strong>Marina Coates</strong> · Fiction · 2023</p>
+        <p>A quiet, aching novel about three sisters who return to their family orchard the summer their mother disappears — and the secrets buried beneath the oldest trees.</p>
+
+        <div class="tab-row" data-tabs>
+          <button class="active" data-tab="overview">Overview</button>
+          <button data-tab="details">Details</button>
+          <button data-tab="reviews">Reviews</button>
+        </div>
+
+        <div data-tab-panel="overview">
+          <p>"The Silent Orchard" unfolds over a single summer, told in alternating chapters between the three Whitmore sisters as they confront old rivalries and a mystery that has haunted their family for a decade. Coates writes with a spare, lyrical style that lingers long after the final page.</p>
+          <div class="stat-cards" style="grid-template-columns: repeat(3,1fr); margin-top: 1.5rem;">
+            <div class="stat-card"><span class="top-row"><span style="color:var(--color-ink-500);font-size:.8rem;">Pages</span></span><strong>342</strong></div>
+            <div class="stat-card"><span class="top-row"><span style="color:var(--color-ink-500);font-size:.8rem;">Language</span></span><strong>English</strong></div>
+            <div class="stat-card"><span class="top-row"><span style="color:var(--color-ink-500);font-size:.8rem;">ISBN</span></span><strong>978-1-2345</strong></div>
+          </div>
+        </div>
+
+        <div data-tab-panel="details" class="hidden">
+          <table>
+            <tr><td>Publisher</td><td>Harrow &amp; Finch Press</td></tr>
+            <tr><td>Published</td><td>March 2023</td></tr>
+            <tr><td>Format</td><td>Hardcover, E-book</td></tr>
+            <tr><td>Shelf Location</td><td>Fiction — Aisle 4, Shelf B</td></tr>
+          </table>
+        </div>
+
+        <div data-tab-panel="reviews" class="hidden">
+          <div class="activity-item">
+            <div class="activity-dot"></div>
+            <div><strong>Dana K.</strong> — ★★★★★<p style="margin:0;">"Couldn't put it down. The ending gutted me."</p></div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-dot"></div>
+            <div><strong>Omar R.</strong> — ★★★★☆<p style="margin:0;">"Beautiful prose, slightly slow middle third."</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-head" style="margin-top: 3rem;">
+      <div><span class="eyebrow">You might also like</span><h2>More in Fiction</h2></div>
+    </div>
+    <div class="book-grid">
+      <div class="book-card"><div class="book-cover cover-6"><span class="tag">Fiction</span>Harbor Lights</div><div class="book-body"><h4>Harbor Lights</h4><div class="author">Priya Nair</div><div class="book-meta"><span class="rating">★ 4.4</span><span class="status-pill status-available">Available</span></div></div></div>
+      <div class="book-card"><div class="book-cover cover-4"><span class="tag">Fiction</span>Wren &amp; Willow</div><div class="book-body"><h4>Wren &amp; Willow</h4><div class="author">Callum Doyle</div><div class="book-meta"><span class="rating">★ 4.6</span><span class="status-pill status-available">Available</span></div></div></div>
+      <div class="book-card"><div class="book-cover cover-5"><span class="tag">Fiction</span>A Life in Ink</div><div class="book-body"><h4>A Life in Ink</h4><div class="author">Grace Whitfield</div><div class="book-meta"><span class="rating">★ 4.5</span><span class="status-pill status-available">Available</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

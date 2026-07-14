@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sign In — Athenaeum</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="auth-shell">
+  <div class="auth-art">
+    <a href="index.html" class="brand" style="color:#fff;"><span class="brand-mark">📖</span> Athenaeum</a>
+    <p class="auth-quote">"A room without books is like a body without a soul." — Cicero</p>
+    <div style="position:relative;">
+      <div class="hero-stats">
+        <div class="hero-stat"><strong style="color:#fff;">12,480</strong><span style="color:rgba(255,255,255,.6);">Titles</span></div>
+        <div class="hero-stat"><strong style="color:#fff;">3,120</strong><span style="color:rgba(255,255,255,.6);">Members</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="auth-form-side">
+    <div class="auth-card">
+      <div class="auth-tabs" data-tabs>
+        <button class="active" data-tab="signin">Sign In</button>
+        <button data-tab="signup">Create Account</button>
+      </div>
+
+      <div data-tab-panel="signin">
+        <h2>Welcome back</h2>
+        <p style="margin-bottom: 1.5rem;">Sign in to reserve books and track your loans.</p>
+        <form onsubmit="return false;">
+          <div class="field">
+            <label for="email">Email address</label>
+            <input id="email" type="email" placeholder="you@example.com" />
+          </div>
+          <div class="field">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="••••••••" />
+          </div>
+          <div class="field-row">
+            <label class="checkbox-row"><input type="checkbox" /> Remember me</label>
+            <a href="#">Forgot password?</a>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Sign In</button>
+        </form>
+        <div class="divider">or continue with</div>
+        <div class="social-auth">
+          <button class="btn btn-outline">Google</button>
+          <button class="btn btn-outline">Library ID</button>
+        </div>
+      </div>
+
+      <div data-tab-panel="signup" class="hidden">
+        <h2>Create your account</h2>
+        <p style="margin-bottom: 1.5rem;">Join to start borrowing from the catalog today.</p>
+        <form onsubmit="return false;">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" type="text" placeholder="Jordan Ellis" />
+          </div>
+          <div class="field">
+            <label for="email2">Email address</label>
+            <input id="email2" type="email" placeholder="you@example.com" />
+          </div>
+          <div class="field">
+            <label for="password2">Password</label>
+            <input id="password2" type="password" placeholder="••••••••" />
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Create Account</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
