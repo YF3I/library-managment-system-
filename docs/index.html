@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body>
+<body data-page="home">
 
 <header class="navbar">
   <div class="container navbar-inner">
@@ -21,10 +21,9 @@
     <nav class="nav-links">
       <a href="index.html" class="active">Home</a>
       <a href="catalog.html">Catalog</a>
-      <a href="book-detail.html">Book Detail</a>
       <a href="dashboard.html">Dashboard</a>
     </nav>
-    <div class="nav-actions">
+    <div class="nav-actions" data-account>
       <a href="login.html" class="btn btn-ghost btn-sm">Sign In</a>
       <a href="login.html" class="btn btn-primary btn-sm">Join Library</a>
       <button class="btn btn-icon" data-nav-toggle aria-label="Menu">
@@ -37,16 +36,16 @@
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <span class="eyebrow">12,480 titles on the shelf</span>
+      <span class="eyebrow">Open shelves, open account</span>
       <h1>Every book you need, in one calm place.</h1>
       <p class="hero-sub">Search the catalog, reserve a copy, and keep track of what's due. Built for members and librarians alike.</p>
 
-      <div class="search-bar">
+      <form class="search-bar" id="hero-search">
         <svg class="icon" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5"/><line x1="15" y1="15" x2="20.5" y2="20.5"/></svg>
         <input type="text" placeholder="Search by title, author, or ISBN" />
-        <select><option>All Genres</option><option>Fiction</option><option>Science</option><option>History</option></select>
-        <button class="btn btn-dark btn-sm">Search</button>
-      </div>
+        <select><option>All Genres</option><option>Fiction</option><option>Science</option><option>History</option><option>Fantasy</option><option>Biography</option><option>Poetry</option></select>
+        <button class="btn btn-dark btn-sm" type="submit">Search</button>
+      </form>
 
       <div class="hero-actions">
         <a href="catalog.html" class="btn btn-primary">Browse Catalog</a>
@@ -54,9 +53,9 @@
       </div>
 
       <div class="hero-stats">
-        <div class="hero-stat"><strong>12,480</strong><span>Total Titles</span></div>
-        <div class="hero-stat"><strong>3,120</strong><span>Active Members</span></div>
-        <div class="hero-stat"><strong>98%</strong><span>On-time Returns</span></div>
+        <div class="hero-stat"><strong data-stat="titles">18</strong><span>Titles</span></div>
+        <div class="hero-stat"><strong data-stat="members">4</strong><span>Members</span></div>
+        <div class="hero-stat"><strong data-stat="activeLoans">4</strong><span>Books on Loan</span></div>
       </div>
     </div>
 
@@ -96,10 +95,10 @@
 <section class="section">
   <div class="container">
     <div class="stats-bar">
-      <div><strong>12,480</strong><span>Books in Catalog</span></div>
-      <div><strong>3,120</strong><span>Registered Members</span></div>
-      <div><strong>860</strong><span>Currently Borrowed</span></div>
-      <div><strong>24</strong><span>New This Week</span></div>
+      <div><strong data-stat="copies">46</strong><span>Copies in Catalog</span></div>
+      <div><strong data-stat="members">4</strong><span>Registered Members</span></div>
+      <div><strong data-stat="activeLoans">4</strong><span>Currently Borrowed</span></div>
+      <div><strong data-stat="overdue">2</strong><span>Overdue</span></div>
     </div>
   </div>
 </section>
@@ -119,55 +118,7 @@
       </div>
     </div>
 
-    <div class="book-grid stagger">
-      <div class="book-card">
-        <div class="book-cover cover-1"><span class="tag">Fiction</span>The Silent Orchard</div>
-        <div class="book-body">
-          <h4>The Silent Orchard</h4>
-          <div class="author">by Marina Coates</div>
-          <div class="book-meta"><span class="rating">★ 4.8</span><span class="status-pill status-available">Available</span></div>
-        </div>
-      </div>
-      <div class="book-card">
-        <div class="book-cover cover-2"><span class="tag">Science</span>Atoms &amp; Ashes</div>
-        <div class="book-body">
-          <h4>Atoms &amp; Ashes</h4>
-          <div class="author">by Dr. R. Feynstein</div>
-          <div class="book-meta"><span class="rating">★ 4.6</span><span class="status-pill status-borrowed">Borrowed</span></div>
-        </div>
-      </div>
-      <div class="book-card">
-        <div class="book-cover cover-3"><span class="tag">History</span>Empires of Sand</div>
-        <div class="book-body">
-          <h4>Empires of Sand</h4>
-          <div class="author">by Halil Demir</div>
-          <div class="book-meta"><span class="rating">★ 4.9</span><span class="status-pill status-available">Available</span></div>
-        </div>
-      </div>
-      <div class="book-card">
-        <div class="book-cover cover-4"><span class="tag">Fantasy</span>The Glass Kingdom</div>
-        <div class="book-body">
-          <h4>The Glass Kingdom</h4>
-          <div class="author">by Wren Ashby</div>
-          <div class="book-meta"><span class="rating">★ 4.7</span><span class="status-pill status-available">Available</span></div>
-        </div>
-      </div>
-      <div class="book-card">
-        <div class="book-cover cover-5"><span class="tag">Biography</span>Letters to Myself</div>
-        <div class="book-body">
-          <h4>Letters to Myself</h4>
-          <div class="author">by Ines Vartan</div>
-          <div class="book-meta"><span class="rating">★ 4.5</span><span class="status-pill status-borrowed">Borrowed</span></div>
-        </div>
-      </div>
-      <div class="book-card">
-        <div class="book-cover cover-6"><span class="tag">Poetry</span>Low Tide Notebook</div>
-        <div class="book-body">
-          <h4>Low Tide Notebook</h4>
-          <div class="author">by Sana Iqbal</div>
-          <div class="book-meta"><span class="rating">★ 4.9</span><span class="status-pill status-available">Available</span></div>
-        </div>
-      </div>
+    <div class="book-grid stagger" id="featured-grid">
     </div>
   </div>
 </section>
@@ -244,11 +195,14 @@
     </div>
     <div class="footer-bottom">
       <span>© 2026 Athenaeum Library Management System.</span>
-      <span>Design mockup, UI only. No backend logic.</span>
+      <span>Demo app. Data is saved in your browser.</span>
     </div>
   </div>
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/db.js"></script>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>

@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body>
+<body data-page="catalog">
 
 <header class="navbar">
   <div class="container navbar-inner">
@@ -21,10 +21,9 @@
     <nav class="nav-links">
       <a href="index.html">Home</a>
       <a href="catalog.html" class="active">Catalog</a>
-      <a href="book-detail.html">Book Detail</a>
       <a href="dashboard.html">Dashboard</a>
     </nav>
-    <div class="nav-actions">
+    <div class="nav-actions" data-account>
       <a href="login.html" class="btn btn-ghost btn-sm">Sign In</a>
       <a href="login.html" class="btn btn-primary btn-sm">Join Library</a>
       <button class="btn btn-icon" data-nav-toggle aria-label="Menu">
@@ -38,14 +37,14 @@
   <div class="container">
     <div class="section-head">
       <div>
-        <span class="eyebrow">12,480 titles</span>
+        <span class="eyebrow">The full shelf</span>
         <h2>Browse the catalog</h2>
       </div>
-      <div class="search-bar" style="margin-top:0;">
+      <form class="search-bar" style="margin-top:0;" id="catalog-search-form">
         <svg class="icon" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5"/><line x1="15" y1="15" x2="20.5" y2="20.5"/></svg>
-        <input type="text" placeholder="Search title, author, ISBN…" />
-        <button class="btn btn-dark btn-sm">Search</button>
-      </div>
+        <input type="text" placeholder="Search title, author, ISBN" id="catalog-search" />
+        <button class="btn btn-dark btn-sm" type="submit">Search</button>
+      </form>
     </div>
 
     <div class="catalog-layout">
@@ -53,70 +52,40 @@
         <div class="filter-group">
           <h4>Genre</h4>
           <div class="chip-row">
-            <span class="chip active">All</span>
-            <span class="chip">Fiction</span>
-            <span class="chip">Science</span>
-            <span class="chip">History</span>
-            <span class="chip">Fantasy</span>
-            <span class="chip">Poetry</span>
-            <span class="chip">Biography</span>
+            <span class="chip active" data-genre="All">All</span>
+            <span class="chip" data-genre="Fiction">Fiction</span>
+            <span class="chip" data-genre="Science">Science</span>
+            <span class="chip" data-genre="History">History</span>
+            <span class="chip" data-genre="Fantasy">Fantasy</span>
+            <span class="chip" data-genre="Poetry">Poetry</span>
+            <span class="chip" data-genre="Biography">Biography</span>
           </div>
         </div>
         <div class="filter-group">
           <h4>Availability</h4>
-          <label><input type="checkbox" checked /> Available now</label>
-          <label><input type="checkbox" /> Currently borrowed</label>
-          <label><input type="checkbox" /> On hold</label>
-        </div>
-        <div class="filter-group">
-          <h4>Format</h4>
-          <label><input type="checkbox" checked /> Physical copy</label>
-          <label><input type="checkbox" /> E-book</label>
-          <label><input type="checkbox" /> Audiobook</label>
+          <label><input type="checkbox" name="availability" value="available" /> Available now</label>
+          <label><input type="checkbox" name="availability" value="borrowed" /> All copies on loan</label>
         </div>
         <div class="filter-group">
           <h4>Rating</h4>
-          <label><input type="radio" name="rating" /> ★★★★★ &amp; up</label>
-          <label><input type="radio" name="rating" checked /> ★★★★ &amp; up</label>
-          <label><input type="radio" name="rating" /> ★★★ &amp; up</label>
+          <label><input type="radio" name="rating" value="4.8" /> ★ 4.8 &amp; up</label>
+          <label><input type="radio" name="rating" value="4.5" /> ★ 4.5 &amp; up</label>
+          <label><input type="radio" name="rating" value="4.0" /> ★ 4.0 &amp; up</label>
         </div>
-        <button class="btn btn-outline btn-block btn-sm">Reset Filters</button>
+        <button class="btn btn-outline btn-block btn-sm" id="reset-filters">Reset Filters</button>
       </aside>
 
       <div>
         <div class="section-tools" style="margin-bottom: 1.25rem; justify-content: space-between; display:flex;">
-          <span style="color: var(--color-ink-500); font-size: 0.9rem;">Showing 1–12 of 12,480</span>
-          <select style="border:1px solid var(--color-cream-200); border-radius: var(--radius-pill); padding: 0.5rem 1rem;">
-            <option>Sort: Most Popular</option>
-            <option>Sort: Newest</option>
-            <option>Sort: Title A–Z</option>
-            <option>Sort: Rating</option>
+          <span style="color: var(--color-ink-500); font-size: 0.9rem;" id="result-count">Loading catalog</span>
+          <select style="border:1px solid var(--color-cream-200); border-radius: var(--radius-pill); padding: 0.5rem 1rem;" id="sort-select">
+            <option value="popular">Sort: Top Rated</option>
+            <option value="newest">Sort: Newest</option>
+            <option value="title">Sort: Title A to Z</option>
           </select>
         </div>
 
-        <div class="book-grid stagger">
-          <div class="book-card"><div class="book-cover cover-1"><span class="tag">Fiction</span>The Silent Orchard</div><div class="book-body"><h4>The Silent Orchard</h4><div class="author">Marina Coates</div><div class="book-meta"><span class="rating">★ 4.8</span><span class="status-pill status-available">Available</span></div></div></div>
-          <div class="book-card"><div class="book-cover cover-2"><span class="tag">Science</span>Atoms &amp; Ashes</div><div class="book-body"><h4>Atoms &amp; Ashes</h4><div class="author">Dr. R. Feynstein</div><div class="book-meta"><span class="rating">★ 4.6</span><span class="status-pill status-borrowed">Borrowed</span></div></div></div>
-          <div class="book-card"><div class="book-cover cover-3"><span class="tag">History</span>Empires of Sand</div><div class="book-body"><h4>Empires of Sand</h4><div class="author">Halil Demir</div><div class="book-meta"><span class="rating">★ 4.9</span><span class="status-pill status-available">Available</span></div></div></div>
-          <div class="book-card"><div class="book-cover cover-4"><span class="tag">Fantasy</span>The Glass Kingdom</div><div class="book-body"><h4>The Glass Kingdom</h4><div class="author">Wren Ashby</div><div class="book-meta"><span class="rating">★ 4.7</span><span class="status-pill status-available">Available</span></div></div></div>
-          <div class="book-card"><div class="book-cover cover-5"><span class="tag">Biography</span>Letters to Myself</div><div class="book-body"><h4>Letters to Myself</h4><div class="author">Ines Vartan</div><div class="book-meta"><span class="rating">★ 4.5</span><span class="status-pill status-borrowed">Borrowed</span></div></div></div>
-          <div class="book-card"><div class="book-cover cover-6"><span class="tag">Poetry</span>Low Tide Notebook</div><div class="book-body"><h4>Low Tide Notebook</h4><div class="author">Sana Iqbal</div><div class="book-meta"><span class="rating">★ 4.9</span><span class="status-pill status-available">Available</span></div></div></div>
-          <div class="book-card"><div class="book-cover cover-1"><span class="tag">Fiction</span>Harbor Lights</div><div class="book-body"><h4>Harbor Lights</h4><div class="author">Priya Nair</div><div class="book-meta"><span class="rating">★ 4.4</span><span class="status-pill status-available">Available</span></div></div></div>
-          <div class="book-card"><div class="book-cover cover-2"><span class="tag">Science</span>The Quiet Universe</div><div class="book-body"><h4>The Quiet Universe</h4><div class="author">Tobias Lund</div><div class="book-meta"><span class="rating">★ 4.7</span><span class="status-pill status-available">Available</span></div></div></div>
-          <div class="book-card"><div class="book-cover cover-3"><span class="tag">History</span>The Last Caravan</div><div class="book-body"><h4>The Last Caravan</h4><div class="author">Amara Solis</div><div class="book-meta"><span class="rating">★ 4.3</span><span class="status-pill status-borrowed">Borrowed</span></div></div></div>
-          <div class="book-card"><div class="book-cover cover-4"><span class="tag">Fantasy</span>Wren &amp; Willow</div><div class="book-body"><h4>Wren &amp; Willow</h4><div class="author">Callum Doyle</div><div class="book-meta"><span class="rating">★ 4.6</span><span class="status-pill status-available">Available</span></div></div></div>
-          <div class="book-card"><div class="book-cover cover-5"><span class="tag">Biography</span>A Life in Ink</div><div class="book-body"><h4>A Life in Ink</h4><div class="author">Grace Whitfield</div><div class="book-meta"><span class="rating">★ 4.5</span><span class="status-pill status-available">Available</span></div></div></div>
-          <div class="book-card"><div class="book-cover cover-6"><span class="tag">Poetry</span>Salt &amp; Stone</div><div class="book-body"><h4>Salt &amp; Stone</h4><div class="author">Noor Haddad</div><div class="book-meta"><span class="rating">★ 4.8</span><span class="status-pill status-available">Available</span></div></div></div>
-        </div>
-
-        <div class="pagination">
-          <button>‹</button>
-          <button class="active">1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>…</button>
-          <button>1040</button>
-          <button>›</button>
+        <div class="book-grid stagger" id="catalog-grid">
         </div>
       </div>
     </div>
@@ -124,5 +93,8 @@
 </section>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/db.js"></script>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>

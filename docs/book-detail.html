@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body>
+<body data-page="detail">
 
 <header class="navbar">
   <div class="container navbar-inner">
@@ -21,10 +21,9 @@
     <nav class="nav-links">
       <a href="index.html">Home</a>
       <a href="catalog.html">Catalog</a>
-      <a href="book-detail.html" class="active">Book Detail</a>
       <a href="dashboard.html">Dashboard</a>
     </nav>
-    <div class="nav-actions">
+    <div class="nav-actions" data-account>
       <a href="login.html" class="btn btn-ghost btn-sm">Sign In</a>
       <a href="login.html" class="btn btn-primary btn-sm">Join Library</a>
     </div>
@@ -34,28 +33,28 @@
 <section class="section">
   <div class="container">
     <p style="font-size: 0.85rem; color: var(--color-ink-500); margin-bottom: 1.5rem;">
-      <a href="catalog.html">Catalog</a> / <a href="catalog.html">Fiction</a> / The Silent Orchard
+      <a href="catalog.html">Catalog</a> / <a href="catalog.html" id="crumb-genre">Fiction</a> / <span id="crumb-title">The Silent Orchard</span>
     </p>
 
     <div class="detail-grid">
       <div>
-        <div class="detail-cover cover-1"></div>
+        <div class="detail-cover cover-1" id="detail-cover"></div>
         <div class="detail-actions">
-          <button class="btn btn-primary btn-block">Reserve Copy</button>
+          <button class="btn btn-primary btn-block" id="borrow-btn">Borrow this book</button>
         </div>
         <div class="detail-actions">
-          <button class="btn btn-outline btn-block">Add to Wishlist</button>
+          <a class="btn btn-outline btn-block" href="catalog.html">Back to Catalog</a>
         </div>
       </div>
 
       <div>
         <div class="badge-row">
-          <span class="status-pill status-available">Available · 3 copies</span>
-          <span class="rating">★ 4.8 (1,204 reviews)</span>
+          <span class="status-pill status-available" id="detail-availability">Available</span>
+          <span class="rating" id="detail-rating">★ 4.8</span>
         </div>
-        <h1>The Silent Orchard</h1>
-        <p style="font-size: 1.05rem;">by <strong>Marina Coates</strong> · Fiction · 2023</p>
-        <p>A quiet, aching novel about three sisters who return to their family orchard the summer their mother disappears, and the secrets buried beneath the oldest trees.</p>
+        <h1 id="detail-title">The Silent Orchard</h1>
+        <p style="font-size: 1.05rem;">by <strong id="detail-author">Marina Coates</strong> · <span id="detail-genre-year">Fiction · 2023</span></p>
+        <p id="detail-desc">A quiet, aching novel about three sisters.</p>
 
         <div class="tab-row" data-tabs>
           <button class="active" data-tab="overview">Overview</button>
@@ -64,20 +63,19 @@
         </div>
 
         <div data-tab-panel="overview">
-          <p>"The Silent Orchard" unfolds over a single summer, told in alternating chapters between the three Whitmore sisters as they confront old rivalries and a mystery that has haunted their family for a decade. Coates writes with a spare, lyrical style that lingers long after the final page.</p>
           <div class="stat-cards" style="grid-template-columns: repeat(3,1fr); margin-top: 1.5rem;">
-            <div class="stat-card"><span class="top-row"><span style="color:var(--color-ink-500);font-size:.8rem;">Pages</span></span><strong>342</strong></div>
+            <div class="stat-card"><span class="top-row"><span style="color:var(--color-ink-500);font-size:.8rem;">Pages</span></span><strong id="stat-pages">342</strong></div>
             <div class="stat-card"><span class="top-row"><span style="color:var(--color-ink-500);font-size:.8rem;">Language</span></span><strong>English</strong></div>
-            <div class="stat-card"><span class="top-row"><span style="color:var(--color-ink-500);font-size:.8rem;">ISBN</span></span><strong>978-1-2345</strong></div>
+            <div class="stat-card"><span class="top-row"><span style="color:var(--color-ink-500);font-size:.8rem;">ISBN</span></span><strong id="stat-isbn">978-1-2345</strong></div>
           </div>
         </div>
 
         <div data-tab-panel="details" class="hidden">
           <table>
             <tr><td>Publisher</td><td>Harrow &amp; Finch Press</td></tr>
-            <tr><td>Published</td><td>March 2023</td></tr>
-            <tr><td>Format</td><td>Hardcover, E-book</td></tr>
-            <tr><td>Shelf Location</td><td>Fiction, Aisle 4, Shelf B</td></tr>
+            <tr><td>ISBN</td><td id="details-isbn">978-1-2345</td></tr>
+            <tr><td>Format</td><td>Hardcover</td></tr>
+            <tr><td>Shelf Location</td><td id="details-shelf">Fiction, Aisle 4, Shelf B</td></tr>
           </table>
         </div>
 
@@ -101,16 +99,16 @@
     </div>
 
     <div class="section-head" style="margin-top: 3rem;">
-      <div><span class="eyebrow">You might also like</span><h2>More in Fiction</h2></div>
+      <div><span class="eyebrow">You might also like</span><h2 id="related-genre">More in Fiction</h2></div>
     </div>
-    <div class="book-grid stagger">
-      <div class="book-card"><div class="book-cover cover-6"><span class="tag">Fiction</span>Harbor Lights</div><div class="book-body"><h4>Harbor Lights</h4><div class="author">Priya Nair</div><div class="book-meta"><span class="rating">★ 4.4</span><span class="status-pill status-available">Available</span></div></div></div>
-      <div class="book-card"><div class="book-cover cover-4"><span class="tag">Fiction</span>Wren &amp; Willow</div><div class="book-body"><h4>Wren &amp; Willow</h4><div class="author">Callum Doyle</div><div class="book-meta"><span class="rating">★ 4.6</span><span class="status-pill status-available">Available</span></div></div></div>
-      <div class="book-card"><div class="book-cover cover-5"><span class="tag">Fiction</span>A Life in Ink</div><div class="book-body"><h4>A Life in Ink</h4><div class="author">Grace Whitfield</div><div class="book-meta"><span class="rating">★ 4.5</span><span class="status-pill status-available">Available</span></div></div></div>
+    <div class="book-grid stagger" id="related-grid">
     </div>
   </div>
 </section>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/db.js"></script>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>

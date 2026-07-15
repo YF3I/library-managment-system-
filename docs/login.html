@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body>
+<body data-page="login">
 
 <div class="auth-shell">
   <div class="auth-art">
@@ -37,8 +37,8 @@
 
       <div data-tab-panel="signin">
         <h2>Welcome back</h2>
-        <p style="margin-bottom: 1.5rem;">Sign in to reserve books and track your loans.</p>
-        <form onsubmit="return false;">
+        <p style="margin-bottom: 1.5rem;">Sign in to borrow books and track your loans.</p>
+        <form id="signin-form">
           <div class="field">
             <label for="email">Email address</label>
             <input id="email" type="email" placeholder="you@example.com" />
@@ -63,7 +63,7 @@
       <div data-tab-panel="signup" class="hidden">
         <h2>Create your account</h2>
         <p style="margin-bottom: 1.5rem;">Join to start borrowing from the catalog today.</p>
-        <form onsubmit="return false;">
+        <form id="signup-form">
           <div class="field">
             <label for="name">Full name</label>
             <input id="name" type="text" placeholder="Jordan Ellis" />
@@ -84,5 +84,8 @@
 </div>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/db.js"></script>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>

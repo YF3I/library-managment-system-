@@ -2,7 +2,7 @@
 
 A desktop **Windows Forms (C#)** application for managing a small library — borrowing books, tracking members, and administering the catalog — built on **.NET Framework 4.7.2** with a **SQL Server LocalDB** backend.
 
-> 🎨 **Web UI design:** this repo also includes a modern web design mockup for the system (landing page, catalog, dashboard, auth) in the [`docs/`](docs/) folder — see the [live demo](https://yf3i.github.io/library-managment-system-/) once GitHub Pages is enabled.
+> 🎨 **Web demo:** this repo also includes a working web version of the system (sign up, log in, browse, borrow and return books) in the [`docs/`](docs/) folder — try the [live demo](https://yf3i.github.io/library-managment-system-/). It runs fully in the browser: data is saved in localStorage and passwords are PBKDF2-hashed, no server required.
 
 ---
 

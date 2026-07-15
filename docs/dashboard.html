@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body>
+<body data-page="dashboard">
 
 <div class="app-shell">
   <aside class="sidebar">
@@ -39,16 +39,16 @@
         <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
         Overdue
       </a>
-      <a href="#">
-        <svg class="icon" viewBox="0 0 24 24"><line x1="4" y1="7" x2="20" y2="7"/><circle cx="9" cy="7" r="1.8"/><line x1="4" y1="12" x2="20" y2="12"/><circle cx="15" cy="12" r="1.8"/><line x1="4" y1="17" x2="20" y2="17"/><circle cx="11" cy="17" r="1.8"/></svg>
-        Settings
+      <a href="#" id="sign-out">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+        Sign Out
       </a>
     </nav>
     <div class="sidebar-foot">
-      <div class="avatar">JE</div>
+      <div class="avatar" id="sidebar-avatar">JE</div>
       <div>
-        <div style="font-weight:600; font-size:.9rem; color:#fff;">Jordan Ellis</div>
-        <div style="font-size:.78rem; color:rgba(255,255,255,.55);">Head Librarian</div>
+        <div style="font-weight:600; font-size:.9rem; color:#fff;" id="sidebar-name">Member</div>
+        <div style="font-size:.78rem; color:rgba(255,255,255,.55);">Member</div>
       </div>
     </div>
   </aside>
@@ -56,7 +56,7 @@
   <main class="main-area">
     <div class="topbar">
       <div>
-        <h2 class="mt-0">Welcome back, Jordan.</h2>
+        <h2 class="mt-0" id="welcome-name">Welcome back.</h2>
         <p class="mt-0">Here's what's happening in the library today.</p>
       </div>
       <div class="search-bar">
@@ -68,23 +68,23 @@
     <div class="stat-cards stagger">
       <div class="stat-card">
         <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Total Books</span><div class="icon-badge" style="background:var(--color-amber-100); color:var(--color-amber-500);"><svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v17H6a2 2 0 0 0-2 2Z"/><path d="M18 22H6a2 2 0 0 1 0-4h12"/></svg></div></div>
-        <strong>12,480</strong>
-        <span class="trend-up">▲ 2.4% this month</span>
+        <strong data-stat="copies">46</strong>
+        <span class="trend-up">Copies across all titles</span>
       </div>
       <div class="stat-card">
         <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Active Loans</span><div class="icon-badge" style="background:var(--color-teal-100); color:var(--color-teal-500);"><svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5"/><path d="M20 12a8 8 0 0 1-14 5"/><path d="M18 4v3h-3M6 20v-3h3"/></svg></div></div>
-        <strong>860</strong>
-        <span class="trend-up">▲ 5.1% this week</span>
+        <strong data-stat="activeLoans">4</strong>
+        <span class="trend-up">Currently checked out</span>
       </div>
       <div class="stat-card">
         <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Overdue Items</span><div class="icon-badge" style="background:#f4e2df; color:var(--color-danger);"><svg class="icon icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div></div>
-        <strong>37</strong>
-        <span class="trend-down">▼ 1.2% this week</span>
+        <strong data-stat="overdue">2</strong>
+        <span class="trend-down">Past their due date</span>
       </div>
       <div class="stat-card">
         <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Registered Members</span><div class="icon-badge" style="background:var(--color-cream-200); color:var(--color-navy-900);"><svg class="icon icon-sm" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 2.5-5 6-5s6 2 6 5"/><path d="M16 6.5a3 3 0 0 1 0 5.8M21 20c0-2.5-1.8-4.3-4-4.9"/></svg></div></div>
-        <strong>3,120</strong>
-        <span class="trend-up">▲ 0.8% this month</span>
+        <strong data-stat="members">4</strong>
+        <span class="trend-up">Registered accounts</span>
       </div>
     </div>
 
@@ -92,34 +92,21 @@
       <div>
         <div class="panel">
           <div class="panel-head">
+            <h3>My Books</h3>
+            <a href="catalog.html" class="btn btn-ghost btn-sm">Borrow more</a>
+          </div>
+          <div id="my-books"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
             <h3>Recently Borrowed</h3>
-            <a href="#" class="btn btn-ghost btn-sm">View all</a>
           </div>
           <table>
             <thead>
               <tr><th>Book</th><th>Member</th><th>Due Date</th><th>Status</th></tr>
             </thead>
-            <tbody>
-              <tr>
-                <td><div class="book-row"><div class="mini-cover cover-1"></div>The Silent Orchard</div></td>
-                <td>Dana Kim</td><td>Jul 20, 2026</td>
-                <td><span class="status-pill status-available">On time</span></td>
-              </tr>
-              <tr>
-                <td><div class="book-row"><div class="mini-cover cover-2"></div>Atoms &amp; Ashes</div></td>
-                <td>Omar Reyes</td><td>Jul 10, 2026</td>
-                <td><span class="status-pill status-borrowed">Overdue</span></td>
-              </tr>
-              <tr>
-                <td><div class="book-row"><div class="mini-cover cover-3"></div>Empires of Sand</div></td>
-                <td>Priya Nair</td><td>Jul 24, 2026</td>
-                <td><span class="status-pill status-available">On time</span></td>
-              </tr>
-              <tr>
-                <td><div class="book-row"><div class="mini-cover cover-5"></div>Letters to Myself</div></td>
-                <td>Callum Doyle</td><td>Jul 15, 2026</td>
-                <td><span class="status-pill status-borrowed">Overdue</span></td>
-              </tr>
+            <tbody id="loans-tbody">
             </tbody>
           </table>
         </div>
@@ -144,20 +131,12 @@
       <div>
         <div class="panel">
           <div class="panel-head"><h3>Recent Activity</h3></div>
-          <div class="activity-item"><div class="activity-dot"></div><div>Dana Kim borrowed <strong>The Silent Orchard</strong><br><small>10 minutes ago</small></div></div>
-          <div class="activity-item"><div class="activity-dot"></div><div>New member <strong>Sana Iqbal</strong> registered<br><small>42 minutes ago</small></div></div>
-          <div class="activity-item"><div class="activity-dot"></div><div><strong>Atoms &amp; Ashes</strong> marked overdue<br><small>1 hour ago</small></div></div>
-          <div class="activity-item"><div class="activity-dot"></div><div>Priya Nair returned <strong>Harbor Lights</strong><br><small>3 hours ago</small></div></div>
-          <div class="activity-item"><div class="activity-dot"></div><div>24 new titles added to catalog<br><small>Yesterday</small></div></div>
+          <div id="activity-feed"></div>
         </div>
 
         <div class="panel">
           <div class="panel-head"><h3>Top Genres</h3></div>
-          <div class="activity-item"><span>Fiction</span><strong style="margin-left:auto;">38%</strong></div>
-          <div class="activity-item"><span>Science</span><strong style="margin-left:auto;">21%</strong></div>
-          <div class="activity-item"><span>History</span><strong style="margin-left:auto;">17%</strong></div>
-          <div class="activity-item"><span>Fantasy</span><strong style="margin-left:auto;">14%</strong></div>
-          <div class="activity-item"><span>Other</span><strong style="margin-left:auto;">10%</strong></div>
+          <div id="top-genres"></div>
         </div>
       </div>
     </div>
@@ -165,5 +144,8 @@
 </div>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/db.js"></script>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>

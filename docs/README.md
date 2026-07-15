@@ -1,6 +1,6 @@
 # Athenaeum: Library Management System (UI Design)
 
-A clean, modern **front-end design** for a library management system, built as static HTML/CSS/JS pages. This is a **visual design mockup**: no backend, no database, no real authentication. All data on the pages is placeholder content meant to showcase the UI/UX.
+A clean, modern **front-end web app** for a library management system, built as static HTML/CSS/JS pages that run entirely in the browser. Create an account, sign in, search and filter the catalog, borrow and return books, and watch the dashboard update live. Data persists in `localStorage`; passwords are hashed with PBKDF2 (Web Crypto), never stored in plaintext. There is no server: each visitor gets their own private copy of the library data.
 
 ## Preview
 
@@ -19,7 +19,7 @@ A clean, modern **front-end design** for a library management system, built as s
 - **Icons:** one consistent inline SVG stroke set, no emoji, no mismatched icon styles.
 - **Motion:** `ease-out` entrances, durations under 300ms, `scale(0.97)` active states on buttons, staggered card entrances (30–80ms apart), and `prefers-reduced-motion` support. Only `transform`/`opacity` are animated.
 - **Layout:** an asymmetric hero and a bento-style feature grid (one lead card plus two supporting cards) instead of three equal centered cards.
-- All shared styles live in [`assets/css/styles.css`](assets/css/styles.css); interactions (tabs, filter chips, mobile nav) are handled by a small vanilla JS file in [`assets/js/main.js`](assets/js/main.js): UI-only, no data logic.
+- All shared styles live in [`assets/css/styles.css`](assets/css/styles.css). Vanilla JS, no frameworks: [`main.js`](assets/js/main.js) handles UI interactions, [`db.js`](assets/js/db.js) is the localStorage data layer, [`auth.js`](assets/js/auth.js) handles accounts and sessions, and [`app.js`](assets/js/app.js) wires each page.
 
 ## Running locally
 
@@ -51,4 +51,4 @@ library-management-system/
 
 ## Status
 
-Design phase: pages are static mockups. Wiring up a real backend (auth, database, borrow/return logic) is a future step.
+Working front-end demo. The natural next step is swapping the localStorage layer (`assets/js/db.js`) for a real backend API so data is shared between visitors.
