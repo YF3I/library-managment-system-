@@ -1,27 +1,29 @@
-# 📖 Athenaeum — Library Management System (UI Design)
+# Athenaeum: Library Management System (UI Design)
 
-A clean, modern **front-end design** for a library management system — built as static HTML/CSS/JS pages. This is a **visual design mockup**: no backend, no database, no real authentication. All data on the pages is placeholder content meant to showcase the UI/UX.
+A clean, modern **front-end design** for a library management system, built as static HTML/CSS/JS pages. This is a **visual design mockup**: no backend, no database, no real authentication. All data on the pages is placeholder content meant to showcase the UI/UX.
 
 ## Preview
 
 | Page | Description |
 |---|---|
-| [`index.html`](index.html) | Landing page — hero search, stats, featured books, features |
+| [`index.html`](index.html) | Landing page: hero search, stats, featured books, features |
 | [`login.html`](login.html) | Sign in / create account, split-screen auth layout |
 | [`catalog.html`](catalog.html) | Book catalog with filters (genre, availability, format, rating) |
-| [`book-detail.html`](book-detail.html) | Single book page — overview, details, reviews tabs |
-| [`dashboard.html`](dashboard.html) | Librarian dashboard — stats, recent loans, activity feed |
+| [`book-detail.html`](book-detail.html) | Single book page: overview, details, reviews tabs |
+| [`dashboard.html`](dashboard.html) | Librarian dashboard: stats, recent loans, activity feed |
 
 ## Design system
 
-- **Palette:** deep navy + warm amber + soft teal, on a cream background — evokes a reading room rather than a generic admin panel.
-- **Type:** [Poppins](https://fonts.google.com/specimen/Poppins) for headings, [Inter](https://fonts.google.com/specimen/Inter) for body text.
-- **Layout:** responsive CSS Grid/Flexbox, mobile breakpoints at 960px and 640px.
-- All shared styles live in [`assets/css/styles.css`](assets/css/styles.css); interactions (tabs, filter chips, mobile nav) are handled by a small vanilla JS file in [`assets/js/main.js`](assets/js/main.js) — UI-only, no data logic.
+- **Palette:** paper, ink, and a single stamp-red accent (with a quiet moss green for secondary tags), instead of a generic dark-navy-and-gold "AI-premium" look.
+- **Type:** [Fraunces](https://fonts.google.com/specimen/Fraunces) for headings (editorial, book-like), [Inter](https://fonts.google.com/specimen/Inter) for body/UI text.
+- **Icons:** one consistent inline SVG stroke set, no emoji, no mismatched icon styles.
+- **Motion:** `ease-out` entrances, durations under 300ms, `scale(0.97)` active states on buttons, staggered card entrances (30–80ms apart), and `prefers-reduced-motion` support. Only `transform`/`opacity` are animated.
+- **Layout:** an asymmetric hero and a bento-style feature grid (one lead card plus two supporting cards) instead of three equal centered cards.
+- All shared styles live in [`assets/css/styles.css`](assets/css/styles.css); interactions (tabs, filter chips, mobile nav) are handled by a small vanilla JS file in [`assets/js/main.js`](assets/js/main.js): UI-only, no data logic.
 
 ## Running locally
 
-No build step or dependencies required — it's static HTML/CSS/JS.
+No build step or dependencies required, it's static HTML/CSS/JS.
 
 ```bash
 # from this folder
@@ -49,4 +51,4 @@ library-management-system/
 
 ## Status
 
-🎨 Design phase — pages are static mockups. Wiring up a real backend (auth, database, borrow/return logic) is a future step.
+Design phase: pages are static mockups. Wiring up a real backend (auth, database, borrow/return logic) is a future step.

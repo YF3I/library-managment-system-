@@ -3,23 +3,46 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Dashboard — Athenaeum</title>
+<title>Dashboard · Athenaeum</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
 
 <div class="app-shell">
   <aside class="sidebar">
-    <a href="index.html" class="brand"><span class="brand-mark">📖</span> Athenaeum</a>
+    <a href="index.html" class="brand">
+      <span class="brand-mark">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M3 5c1.5-1 3.5-1 5 0 1.5 1 2 1 2 1v13s-.5 0-2-1c-1.5-1-3.5-1-5 0V5Z"/><path d="M21 5c-1.5-1-3.5-1-5 0-1.5 1-2 1-2 1v13s.5 0 2-1c1.5-1 3.5-1 5 0V5Z"/></svg>
+      </span>
+      Athenaeum
+    </a>
     <nav class="side-nav">
-      <a href="dashboard.html" class="active"><span class="ic">📊</span> Overview</a>
-      <a href="catalog.html"><span class="ic">📚</span> Catalog</a>
-      <a href="#"><span class="ic">🔄</span> Loans &amp; Returns</a>
-      <a href="#"><span class="ic">👥</span> Members</a>
-      <a href="#"><span class="ic">⏰</span> Overdue</a>
-      <a href="#"><span class="ic">⚙️</span> Settings</a>
+      <a href="dashboard.html" class="active">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg>
+        Overview
+      </a>
+      <a href="catalog.html">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v17H6a2 2 0 0 0-2 2Z"/><path d="M18 22H6a2 2 0 0 1 0-4h12"/></svg>
+        Catalog
+      </a>
+      <a href="#">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5"/><path d="M20 12a8 8 0 0 1-14 5"/><path d="M18 4v3h-3M6 20v-3h3"/></svg>
+        Loans &amp; Returns
+      </a>
+      <a href="#">
+        <svg class="icon" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 2.5-5 6-5s6 2 6 5"/><path d="M16 6.5a3 3 0 0 1 0 5.8M21 20c0-2.5-1.8-4.3-4-4.9"/></svg>
+        Members
+      </a>
+      <a href="#">
+        <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+        Overdue
+      </a>
+      <a href="#">
+        <svg class="icon" viewBox="0 0 24 24"><line x1="4" y1="7" x2="20" y2="7"/><circle cx="9" cy="7" r="1.8"/><line x1="4" y1="12" x2="20" y2="12"/><circle cx="15" cy="12" r="1.8"/><line x1="4" y1="17" x2="20" y2="17"/><circle cx="11" cy="17" r="1.8"/></svg>
+        Settings
+      </a>
     </nav>
     <div class="sidebar-foot">
       <div class="avatar">JE</div>
@@ -33,33 +56,33 @@
   <main class="main-area">
     <div class="topbar">
       <div>
-        <h2 class="mt-0">Welcome back, Jordan 👋</h2>
+        <h2 class="mt-0">Welcome back, Jordan.</h2>
         <p class="mt-0">Here's what's happening in the library today.</p>
       </div>
       <div class="search-bar">
-        <span>🔍</span>
-        <input type="text" placeholder="Search members, books, ISBN…" />
+        <svg class="icon" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5"/><line x1="15" y1="15" x2="20.5" y2="20.5"/></svg>
+        <input type="text" placeholder="Search members, books, ISBN" />
       </div>
     </div>
 
-    <div class="stat-cards">
+    <div class="stat-cards stagger">
       <div class="stat-card">
-        <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Total Books</span><div class="icon-badge" style="background:var(--color-amber-100); color:var(--color-amber-500);">📚</div></div>
+        <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Total Books</span><div class="icon-badge" style="background:var(--color-amber-100); color:var(--color-amber-500);"><svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M4 19.5V5a2 2 0 0 1 2-2h12v17H6a2 2 0 0 0-2 2Z"/><path d="M18 22H6a2 2 0 0 1 0-4h12"/></svg></div></div>
         <strong>12,480</strong>
         <span class="trend-up">▲ 2.4% this month</span>
       </div>
       <div class="stat-card">
-        <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Active Loans</span><div class="icon-badge" style="background:var(--color-teal-100); color:var(--color-teal-500);">🔄</div></div>
+        <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Active Loans</span><div class="icon-badge" style="background:var(--color-teal-100); color:var(--color-teal-500);"><svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5"/><path d="M20 12a8 8 0 0 1-14 5"/><path d="M18 4v3h-3M6 20v-3h3"/></svg></div></div>
         <strong>860</strong>
         <span class="trend-up">▲ 5.1% this week</span>
       </div>
       <div class="stat-card">
-        <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Overdue Items</span><div class="icon-badge" style="background:#fbeceb; color:var(--color-danger);">⏰</div></div>
+        <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Overdue Items</span><div class="icon-badge" style="background:#f4e2df; color:var(--color-danger);"><svg class="icon icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div></div>
         <strong>37</strong>
         <span class="trend-down">▼ 1.2% this week</span>
       </div>
       <div class="stat-card">
-        <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Registered Members</span><div class="icon-badge" style="background:var(--color-cream-200); color:var(--color-navy-900);">👥</div></div>
+        <div class="top-row"><span style="color:var(--color-ink-500); font-size:.85rem;">Registered Members</span><div class="icon-badge" style="background:var(--color-cream-200); color:var(--color-navy-900);"><svg class="icon icon-sm" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 2.5-5 6-5s6 2 6 5"/><path d="M16 6.5a3 3 0 0 1 0 5.8M21 20c0-2.5-1.8-4.3-4-4.9"/></svg></div></div>
         <strong>3,120</strong>
         <span class="trend-up">▲ 0.8% this month</span>
       </div>
@@ -93,7 +116,7 @@
                 <td><span class="status-pill status-available">On time</span></td>
               </tr>
               <tr>
-                <td><div class="book-row"><div class="mini-cover cover-5"></div>Letters to Myself</td></td>
+                <td><div class="book-row"><div class="mini-cover cover-5"></div>Letters to Myself</div></td>
                 <td>Callum Doyle</td><td>Jul 15, 2026</td>
                 <td><span class="status-pill status-borrowed">Overdue</span></td>
               </tr>

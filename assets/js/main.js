@@ -8,15 +8,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Generic tab groups: [data-tabs] wraps [data-tab] buttons + [data-tab-panel] panels
+  // Generic tab groups: [data-tabs] holds the [data-tab] buttons; the matching
+  // [data-tab-panel] panels are siblings, so search from the group's parent.
   document.querySelectorAll("[data-tabs]").forEach((group) => {
     const buttons = group.querySelectorAll("[data-tab]");
+    const scope = group.parentElement || group;
     buttons.forEach((btn) => {
       btn.addEventListener("click", () => {
         const target = btn.getAttribute("data-tab");
         buttons.forEach((b) => b.classList.remove("active"));
         btn.classList.add("active");
-        group.querySelectorAll("[data-tab-panel]").forEach((panel) => {
+        scope.querySelectorAll("[data-tab-panel]").forEach((panel) => {
           panel.classList.toggle("hidden", panel.getAttribute("data-tab-panel") !== target);
         });
       });

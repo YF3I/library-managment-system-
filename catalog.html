@@ -3,16 +3,21 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Catalog — Athenaeum</title>
+<title>Catalog · Athenaeum</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
 
 <header class="navbar">
   <div class="container navbar-inner">
-    <a href="index.html" class="brand"><span class="brand-mark">📖</span> Athenaeum</a>
+    <a href="index.html" class="brand">
+      <span class="brand-mark">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M3 5c1.5-1 3.5-1 5 0 1.5 1 2 1 2 1v13s-.5 0-2-1c-1.5-1-3.5-1-5 0V5Z"/><path d="M21 5c-1.5-1-3.5-1-5 0-1.5 1-2 1-2 1v13s.5 0 2-1c1.5-1 3.5-1 5 0V5Z"/></svg>
+      </span>
+      Athenaeum
+    </a>
     <nav class="nav-links">
       <a href="index.html">Home</a>
       <a href="catalog.html" class="active">Catalog</a>
@@ -22,7 +27,9 @@
     <div class="nav-actions">
       <a href="login.html" class="btn btn-ghost btn-sm">Sign In</a>
       <a href="login.html" class="btn btn-primary btn-sm">Join Library</a>
-      <button class="btn btn-icon" data-nav-toggle aria-label="Menu">☰</button>
+      <button class="btn btn-icon" data-nav-toggle aria-label="Menu">
+        <svg class="icon" viewBox="0 0 24 24"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
     </div>
   </div>
 </header>
@@ -35,7 +42,7 @@
         <h2>Browse the catalog</h2>
       </div>
       <div class="search-bar" style="margin-top:0;">
-        <span>🔍</span>
+        <svg class="icon" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5"/><line x1="15" y1="15" x2="20.5" y2="20.5"/></svg>
         <input type="text" placeholder="Search title, author, ISBN…" />
         <button class="btn btn-dark btn-sm">Search</button>
       </div>
@@ -87,7 +94,7 @@
           </select>
         </div>
 
-        <div class="book-grid">
+        <div class="book-grid stagger">
           <div class="book-card"><div class="book-cover cover-1"><span class="tag">Fiction</span>The Silent Orchard</div><div class="book-body"><h4>The Silent Orchard</h4><div class="author">Marina Coates</div><div class="book-meta"><span class="rating">★ 4.8</span><span class="status-pill status-available">Available</span></div></div></div>
           <div class="book-card"><div class="book-cover cover-2"><span class="tag">Science</span>Atoms &amp; Ashes</div><div class="book-body"><h4>Atoms &amp; Ashes</h4><div class="author">Dr. R. Feynstein</div><div class="book-meta"><span class="rating">★ 4.6</span><span class="status-pill status-borrowed">Borrowed</span></div></div></div>
           <div class="book-card"><div class="book-cover cover-3"><span class="tag">History</span>Empires of Sand</div><div class="book-body"><h4>Empires of Sand</h4><div class="author">Halil Demir</div><div class="book-meta"><span class="rating">★ 4.9</span><span class="status-pill status-available">Available</span></div></div></div>
