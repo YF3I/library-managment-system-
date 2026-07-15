@@ -103,9 +103,3 @@ This project was built as an academic/learning exercise to practice WinForms UI 
 - Some UI logic (e.g., category switching, cart handling) is done with manual index checks rather than data binding
 
 Contributions and refactors (parameterized queries, password hashing, MVC-style separation) are welcome.
-
----
-
-## License
-
-Add your preferred license here (e.g., MIT).
