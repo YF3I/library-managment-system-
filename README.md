@@ -2,6 +2,8 @@
 
 A desktop **Windows Forms (C#)** application for managing a small library — borrowing books, tracking members, and administering the catalog — built on **.NET Framework 4.7.2** with a **SQL Server LocalDB** backend.
 
+> 🎨 **Web UI design:** this repo also includes a modern web design mockup for the system (landing page, catalog, dashboard, auth) in the [`docs/`](docs/) folder — see the [live demo](https://yf3i.github.io/library-managment-system-/) once GitHub Pages is enabled.
+
 ---
 
 ## Overview
@@ -78,7 +80,7 @@ MAQ Online Library/
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/MAQ-Online-Library.git
+   git clone https://github.com/YF3I/library-managment-system-.git
    ```
 2. Open `MAQ Online Library.sln` in Visual Studio.
 3. Verify the three `.mdf` database files are present under the project directory (`MAQDataBase.mdf`, `ManagerDataBase.mdf`, `Books.mdf`). They attach automatically via LocalDB using the connection strings in `App.config`.
