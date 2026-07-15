@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAQ Online Library", "MAQ Online Library\MAQ Online Library.csproj", "{F13C11D3-861F-41EC-B869-4979C157E133}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F13C11D3-861F-41EC-B869-4979C157E133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13C11D3-861F-41EC-B869-4979C157E133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13C11D3-861F-41EC-B869-4979C157E133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13C11D3-861F-41EC-B869-4979C157E133}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1B29A1C-F766-4A24-8A65-934222D20FEE}
+	EndGlobalSection
+EndGlobal

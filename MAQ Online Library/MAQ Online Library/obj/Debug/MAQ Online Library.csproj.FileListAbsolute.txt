@@ -1,0 +1,198 @@
+C:\Users\mahda\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBase.mdf
+C:\Users\mahda\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBase_log.ldf
+C:\Users\mahda\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.exe.config
+C:\Users\mahda\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.exe
+C:\Users\mahda\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.pdb
+C:\Users\mahda\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.AssemblyReference.cache
+C:\Users\mahda\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Login.resources
+C:\Users\mahda\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Properties.Resources.resources
+C:\Users\mahda\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.GenerateResource.cache
+C:\Users\mahda\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.CoreCompileInputs.cache
+C:\Users\mahda\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.exe
+C:\Users\mahda\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.pdb
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBase.mdf
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBase_log.ldf
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.exe.config
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.exe
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.pdb
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.AssemblyReference.cache
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Login.resources
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Properties.Resources.resources
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.GenerateResource.cache
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.CoreCompileInputs.cache
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.exe
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.pdb
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.Designer.cs
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.Designer.cs
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xsc
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xsd
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xss
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xsc
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xsd
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xss
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Manager.resources
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBase.mdf
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBase_log.ldf
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.ManagerControlPage.resources
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.Designer.cs
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.Designer.cs
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xsc
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xsd
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xss
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xsc
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xsd
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xss
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.AboutUs.resources
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Librarian.resources
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\Books.mdf
+C:\Users\mahda\OneDrive\Desktop\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\Books_log.ldf
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBase.mdf
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBase_log.ldf
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.Designer.cs
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.Designer.cs
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.Designer.cs
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.Designer.cs
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xsc
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xsd
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xss
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xsc
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xsd
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xss
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xsc
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xsd
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xss
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xsc
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xsd
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xss
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBase.mdf
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBase_log.ldf
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\Books.mdf
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\Books_log.ldf
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.exe.config
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.exe
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.pdb
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.AssemblyReference.cache
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.AboutUs.resources
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Login.resources
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Librarian.resources
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Manager.resources
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.ManagerControlPage.resources
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Properties.Resources.resources
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.GenerateResource.cache
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.CoreCompileInputs.cache
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.exe
+C:\Users\mahda\OneDrive\Desktop\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.pdb
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBase.mdf
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBase_log.ldf
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.Designer.cs
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.Designer.cs
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.Designer.cs
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.Designer.cs
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xsc
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xsd
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xss
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xsc
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xsd
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xss
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xsc
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xsd
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xss
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xsc
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xsd
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xss
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBase.mdf
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBase_log.ldf
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\Books.mdf
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\Books_log.ldf
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.exe.config
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.exe
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.pdb
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.AssemblyReference.cache
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.AboutUs.resources
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Login.resources
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Librarian.resources
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Manager.resources
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.ManagerControlPage.resources
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Properties.Resources.resources
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Resources.Borrowerrr.resources
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.GenerateResource.cache
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.CoreCompileInputs.cache
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.exe
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.pdb
+C:\Users\fa7oo\Downloads\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Resources.PaymentPage.resources
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBase.mdf
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBase_log.ldf
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBase.mdf
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBase_log.ldf
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.Designer.cs
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.Designer.cs
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.Designer.cs
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.Designer.cs
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xsc
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xsd
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xss
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xsc
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xsd
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xss
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xsc
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xsd
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xss
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xsc
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xsd
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xss
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\Books.mdf
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\Books_log.ldf
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.exe.config
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.exe
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.pdb
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.AboutUs.resources
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Login.resources
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Librarian.resources
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Manager.resources
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.ManagerControlPage.resources
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Properties.Resources.resources
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Resources.Borrowerrr.resources
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Resources.PaymentPage.resources
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.exe
+C:\Users\User\OneDrive\Desktop\Project241\Project241\Project241\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.pdb
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBase.mdf
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBase_log.ldf
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBase.mdf
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBase_log.ldf
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.Designer.cs
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.Designer.cs
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.Designer.cs
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.Designer.cs
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xsc
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xsd
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\ManagerDataBaseDataSet.xss
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xsc
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xsd
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQData1.xss
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xsc
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xsd
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet.xss
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xsc
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xsd
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQDataBaseDataSet1.xss
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\Books.mdf
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\Books_log.ldf
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.exe.config
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.exe
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\bin\Debug\MAQ Online Library.pdb
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.AboutUs.resources
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Login.resources
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Librarian.resources
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Manager.resources
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.ManagerControlPage.resources
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Properties.Resources.resources
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Resources.Borrowerrr.resources
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ_Online_Library.Resources.PaymentPage.resources
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.exe
+C:\Users\User\OneDrive\Desktop\MAQ Online Library\MAQ Online Library\MAQ Online Library\obj\Debug\MAQ Online Library.pdb
